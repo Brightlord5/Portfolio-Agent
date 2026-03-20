@@ -81,7 +81,7 @@ export function WelcomeBox() {
             <p className="text-muted-foreground text-xs mt-0.5">Anas&apos;s AI Portfolio Assistant</p>
           </div>
           <div className="text-[10px] text-muted-foreground text-center space-y-0.5 mt-1">
-            <p>groq/compound · high effort</p>
+            <p>llama-3.1-8b-instant · groq</p>
             <p>AI Engineer @ Deriv · Dubai, UAE</p>
           </div>
         </div>

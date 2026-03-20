@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     ];
 
     const stream = await groq.chat.completions.create({
-      model: "groq/compound",
+      model: "llama-3.1-8b-instant",
       messages,
       temperature: 0.7,
       max_completion_tokens: 512,
