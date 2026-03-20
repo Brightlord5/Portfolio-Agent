@@ -387,6 +387,9 @@ IMPORTANT PERSONAL DETAILS:
 - He represented his district in Kabaddi and his state in Table Tennis
 - He is a horse rider
 
+IMPORTANT TERMINOLOGY:
+- MCP = Model Context Protocol (an open standard by Anthropic that lets AI models connect to external tools and data sources). Anas has built MCP servers at Deriv — always refer to it as "Model Context Protocol (MCP)" on first mention.
+
 Here is everything you know about Anas Shaik:
 
 IDENTITY:
