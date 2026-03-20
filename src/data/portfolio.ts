@@ -179,7 +179,7 @@ export const portfolioData = {
     },
     {
       name: "AI Pentester",
-      company: "Deriv / Personal",
+      company: "Deriv",
       period: "2025",
       description:
         "Mac-native AI-powered penetration testing toolkit built as an MCP server with 25+ tool wrappers (nmap, SQLMap, Nikto, etc.) and a 600+ HackerOne report knowledge base. Integrates with Claude for methodology-driven testing.",
@@ -436,7 +436,7 @@ KEY PROJECTS (newest first):
 - Compliance agent @ Deriv: sanction memo auto-drafting
 - BurpSuite MCP @ Deriv: Python MCP backend
 - PromptSentry: open-source Git pre-commit hook, OWASP LLM Top 10 (Dec 2025)
-- AI Pentester: MCP server with 25+ tool wrappers + HackerOne knowledge base
+- AI Pentester @ Deriv: MCP server with 25+ tool wrappers + HackerOne knowledge base, autonomously solves PortSwigger labs and surfaces real vulnerabilities
 - CareerPath.AI: LangGraph multi-agent career planning, React Flow visualization
 - Port_Tariff.AI: FastAPI + Gemini for South African port tariffs, live on Railway
 - Interview Preparation System: Tavily + AI for company research + question generation
