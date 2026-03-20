@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio-Agent
 
-## Getting Started
+An interactive AI-powered portfolio built to look and feel like **Claude Code** — a terminal IDE in the browser, backed by a real AI assistant (Chitti) powered by Groq.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Terminal interface** — type commands like `about`, `projects`, `experience`, `skills`, `contact` for instant responses
+- **Chitti AI** — natural language Q&A about Anas, powered by Groq's compound model with SSE streaming
+- **Autocomplete** — Tab/arrow key command suggestions as you type
+- **VS Code-style panels** — Problems, Output, Debug Console, Terminal, Ports tabs
+- **Standard view** — `/non-tech` command switches to a scroll-based portfolio with photo collage hero
+- **Live GitHub activity** — sidebar shows recent public GitHub events
+- **Session rate limiting** — 15 AI messages per session
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 16** (App Router) + **TypeScript**
+- **Tailwind CSS** + **Framer Motion**
+- **Groq SDK** (compound model, SSE streaming)
+- **Lucide React** icons
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
