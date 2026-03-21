@@ -9,18 +9,8 @@ export async function POST(req: NextRequest) {
   try {
     const { message, sessionId, history } = await req.json();
 
-    const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-
     if (!message || !sessionId) {
       return new Response(JSON.stringify({ error: "Missing message or sessionId" }), { status: 400 });
-    }
-
-    if (!UUID_REGEX.test(sessionId)) {
-      return new Response(JSON.stringify({ error: "Invalid session" }), { status: 400 });
-    }
-
-    if (typeof message !== "string" || message.length > 500) {
-      return new Response(JSON.stringify({ error: "Message too long" }), { status: 400 });
     }
 
     const rateCheck = checkRateLimit(sessionId);

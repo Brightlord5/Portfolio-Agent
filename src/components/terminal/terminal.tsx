@@ -41,7 +41,7 @@ function getSessionId(): string {
   if (typeof window === "undefined") return "ssr";
   let id = sessionStorage.getItem("portfolio_session_id");
   if (!id) {
-    id = crypto.randomUUID();
+    id = Math.random().toString(36).slice(2) + Date.now().toString(36);
     sessionStorage.setItem("portfolio_session_id", id);
   }
   return id;
